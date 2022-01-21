@@ -41,7 +41,7 @@ Users should be able to:
 
 #### Desktop - Hover / Weekly
 
-![](./screenshot-desktop-hover.png)
+![](./screenshot-desktop-hover-weekly.png)
 
 #### Mobile
 
