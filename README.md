@@ -8,7 +8,9 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
+    - [Screenshots](#screenshots)
+      - [Desktop](#desktop)
+      - [Mobile](#mobile)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -30,11 +32,17 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
 
-### Screenshot
+### Screenshots
+
+#### Desktop
+
+![](./screenshot-desktop.png)
+
+#### Mobile
 
 ![](./screenshot-mobile.png)
 
-![](./screenshot-desktop.png)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
