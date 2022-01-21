@@ -2,7 +2,7 @@ import React from 'react';
 
 import img from '../images/image-jeremy.png';
 
-export default function Profile() {
+export default function Profile({ time, setTime }) {
 	return (
 		<div className="md:col-span-1 md:row-[1/_span_3] sm:col-span-2 md:h-[530px] h-[200px] m-[24px] sm:mt-[24px] mt-[80px] rounded-2xl bg-card box-border">
 			<div className="bg-[#5747EA] w-full md:h-[354px] h-[133px] rounded-2xl p-[35px] pr-[10px] flex md:flex-col">
@@ -16,9 +16,15 @@ export default function Profile() {
 				</div>
 			</div>
 			<div className="font-sans text-[18px] grid grid-cols-3 text-center h-[60px] place-content-center md:grid-cols-1 md:mt-[20px] md:h-[130px] md:place-items-start md:ml-[32px] md:place-content-around">
-				<p className="text-[#7078C9]">Daily</p>
-				<p>Weekly</p>
-				<p className="text-[#7078C9]">Monthly</p>
+				<p className={`${time !== 'daily' && 'text-[#7078C9]'} hover:cursor-pointer`} onClick={() => setTime('daily')}>
+					Daily
+				</p>
+				<p className={`${time !== 'weekly' && 'text-[#7078C9]'} hover:cursor-pointer`} onClick={() => setTime('weekly')}>
+					Weekly
+				</p>
+				<p className={`${time !== 'monthly' && 'text-[#7078C9]'} hover:cursor-pointer`} onClick={() => setTime('monthly')}>
+					Monthly
+				</p>
 			</div>
 		</div>
 	);
