@@ -10,6 +10,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
     - [The challenge](#the-challenge)
     - [Screenshots](#screenshots)
       - [Desktop](#desktop)
+      - [Desktop - Hover / Weekly](#desktop---hover--weekly)
       - [Mobile](#mobile)
     - [Links](#links)
   - [My process](#my-process)
@@ -37,6 +38,10 @@ Users should be able to:
 #### Desktop
 
 ![](./screenshot-desktop.png)
+
+#### Desktop - Hover / Weekly
+
+![](./screenshot-desktop-hover.png)
 
 #### Mobile
 
