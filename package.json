@@ -1,5 +1,6 @@
 {
-  "name": "time-tracking-react",
+  "name": "fem-time-tracker",
+  "homepage": "https://kpessa.github.io/fem-time-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
